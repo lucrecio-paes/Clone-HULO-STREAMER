@@ -34,6 +34,12 @@ img {
     width: 100%;
 }
 
+h4{
+    color: #00ed82;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
 .btn{
     display: inline-block;
     background: #fff;
@@ -96,4 +102,17 @@ img {
 .header .header-text-2{
     font-size: 18px;
     margin: 25px 0;
+}
+
+/* Media Queries */
+
+@media(max-width: 768px){
+    .header .logo{
+        width: 200px;
+    }
+
+    .header .header-content{
+        text-align: center;
+        padding: 0 20px;
+    }
 }
